@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap");
 
 :root {
-  --title-color: #fff;
-  --text-color: #ff8787;
-  --shape-gradient: linear-gradient(90deg, #eeeeee, #ff4c29);
-  --body-gradient: linear-gradient(180deg, #3b3486, #b1afff);
+  --title-color: #9d9bdd;
+  --text-color: #6e9ad1;
+  --shape-gradient: linear-gradient(90deg, #f4b70e, #372901);
+  --body-gradient: linear-gradient(90deg, #a2b5f4, #f3f167);
   --container-color: #181d31;
 
   --body-font: "Mulish", sans-serif;
@@ -16,6 +16,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -48,7 +49,7 @@ img {
 
 .card__article {
   position: relative;
-  background: rgba(255, 255, 255, 0);
+  background: rgba(204, 221, 240, 0.6);
   padding: 2.5rem;
   border-radius: 2rem;
   text-align: center;
@@ -56,7 +57,6 @@ img {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  border: 1px solid rgba(74, 74, 74, 0.6);
   overflow: hidden;
 }
 
@@ -104,35 +104,35 @@ img {
 }
 
 .card__shape:nth-child(1) {
-  animation-delay: 0.1s;
+  animation-delay: 0.11s;
 }
 
 .card__shape:nth-child(2) {
-  animation-delay: 0.2s;
+  animation-delay: 0.12s;
 }
 
 .card__shape:nth-child(3) {
-  animation-delay: 0.3s;
+  animation-delay: 0.13s;
 }
 
 .card__shape:nth-child(4) {
-  animation-delay: 0.4s;
+  animation-delay: 0.14s;
 }
 
 .card__shape:nth-child(5) {
-  animation-delay: 0.5s;
+  animation-delay: 0.15s;
 }
 
 .card__shape:nth-child(6) {
-  animation-delay: 0.6s;
+  animation-delay: 0.16s;
 }
 
 .card__shape:nth-child(7) {
-  animation-delay: 0.7s;
+  animation-delay: 0.17s;
 }
 
 .card__shape:nth-child(8) {
-  animation-delay: 0.8s;
+  animation-delay: 0.18s;
 }
 
 .card__article:hover .card__shape {
